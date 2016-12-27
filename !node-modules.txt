@@ -1,0 +1,23 @@
+// from tutorial: https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
+
+npm init
+# webpack dependencies
+npm install webpack --save
+npm install webpack-dev-server --save
+# react dependencies
+npm install react --save
+npm install react-dom --save
+# babel dependencies
+npm install babel-core
+npm install babel-loader
+npm install babel-preset-react
+npm install babel-preset-es2015
+
+# dependencies for CSS packaging
+npm install style-loader --save
+npm install css-loader --save
+npm install extract-text-webpack-plugin --save
+
+
+npm install semantic-ui-react --save
+npm install semantic-ui-css --save
