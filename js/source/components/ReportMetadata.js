@@ -1,5 +1,5 @@
 /**
- * Created by Admin on 17.12.2016.
+ * Created by Sergey Popov on 17.12.2016.
  */
 'use strict';
 import React from 'react';

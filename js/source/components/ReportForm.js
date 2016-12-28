@@ -1,5 +1,5 @@
 /**
- * Created by Admin on 17.12.2016.
+ * Created by Sergey Popov on 17.12.2016.
  */
 'use strict';
 import React from 'react';
@@ -13,7 +13,7 @@ class ReportForm extends React.Component {
 
     render() {
         switch(this.props.reportName) {
-            case constant.REPORT_TRADE_ACTIVITY:
+            case constant.TARDE_ACTIVITY_REPORT:
                 return <TradeActivityForm />;
             default:
                 return <Message negative>The report "{this.props.reportName}" could not be found</Message>;
