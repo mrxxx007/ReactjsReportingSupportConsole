@@ -2,7 +2,7 @@
  * Created by Sergey Popov on 22.12.2016.
  */
 export const OPEN_AND_PENDING_TRADE_REPORT = 'Open and Pending Trade';
-export const TARDE_ACTIVITY_REPORT = 'Trade Activity';
+export const TRADE_ACTIVITY_REPORT = 'Trade Activity';
 export const CASH_FLOW_BY_CCY_REPORT = 'Cash Flow By CCY';
 export const CASH_FLOW_BY_CCY_PAIR_REPORT = 'Cash Flow By CCY Pair';
 export const COLLATERAL_ACTIVITY_REPORT = 'Collateral Activity';
@@ -29,7 +29,7 @@ export const TRADE_ENQUIRY_REPORT = 'Trade Enquiry';
 
 export const ALL_REPORTS = [
     OPEN_AND_PENDING_TRADE_REPORT,
-    TARDE_ACTIVITY_REPORT,
+    TRADE_ACTIVITY_REPORT,
     CASH_FLOW_BY_CCY_REPORT,
     CASH_FLOW_BY_CCY_PAIR_REPORT,
     COLLATERAL_ACTIVITY_REPORT,
